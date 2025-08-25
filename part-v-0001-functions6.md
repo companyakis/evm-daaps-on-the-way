@@ -1,0 +1,3 @@
+We can see loss amount...
+
+<img width="799" height="339" alt="image" src="https://github.com/user-attachments/assets/4e79c711-4e7f-43a2-832d-dacae05309d8" />
