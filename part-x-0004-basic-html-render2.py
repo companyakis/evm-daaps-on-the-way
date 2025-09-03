@@ -1,0 +1,23 @@
+from flask import Flask 
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return """
+        <h1>Flask for Web3<h1>
+        
+        <h3>Daaps will be created</h3>
+        
+        <p>Mustafa Buyukdereli was here...</p>
+        """
+
+@app.route("/about")
+# def about()
+def about_company():
+    return "About our company"
+
+# http://127.0.0.1:5000/about
+
+if __name__ == "__main__":
+    app.run(debug = True)
